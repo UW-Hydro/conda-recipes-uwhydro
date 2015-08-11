@@ -1,0 +1,32 @@
+package:
+    name: rvic
+    version: "1.1.0"
+
+source:
+    # fn:
+    url: https://github.com/UW-Hydro/RVIC.git
+    # md5:
+
+build:
+    number: 0
+
+requirements:
+    build:
+        - python
+        - setuptools
+    run:
+        - python
+        - netcdf4
+        - numpy
+        - scipy
+        - pandas
+        - matplotlib
+
+test:
+    imports:
+        - rvic
+
+about:
+    home: https://github.com/UW-Hydro/RVIC
+    license: GPLv3
+    summary: 'RVIC streamflow routing model'
