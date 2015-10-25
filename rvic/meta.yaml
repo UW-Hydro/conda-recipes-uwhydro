@@ -4,7 +4,7 @@ package:
 
 source:
     git_url: https://github.com/UW-Hydro/RVIC.git
-    git_rev: 1.1.0
+    git_rev: rvic.1.1.0
 
 build:
     number: 0
